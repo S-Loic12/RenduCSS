@@ -12,6 +12,7 @@ body{
 }
 .kkk{
     width: 199.9vh;
+    height: 100%;
 }
 #MK2{
     text-align: left;
@@ -24,6 +25,9 @@ ul{
     display: flex;
     justify-content: center;
 }
+a{
+    text-decoration: none;
+}
 .button{
     background-color: #0a0a23;
     border: none;
@@ -33,6 +37,20 @@ ul{
     background-color: aqua;
     color: #0a0a23;
 }
-a{
-    text-decoration: none;
+.centered{
+    position: absolute;
+    top: 350px;
+    left: 99.95px;
+    color: aliceblue;
+}
+#centered{
+    position: absolute;
+    top: 350vh;
+    left: 140px;
+    color: aquamarine;
+}
+#Z2{
+    position: absolute;
+    top: 950px;
+
 }
